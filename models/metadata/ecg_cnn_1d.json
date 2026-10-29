@@ -1,0 +1,27 @@
+{
+  "model_name": "ecg_cnn_1d",
+  "model_type": "cnn_1d",
+  "created_at": "2026-10-25T10:36:47.197613",
+  "classes": [
+    "N",
+    "S",
+    "V",
+    "F",
+    "Q"
+  ],
+  "feature_names": [],
+  "num_parameters": 44069,
+  "hyperparameters": {
+    "learning_rate": 0.001,
+    "batch_size": 64
+  },
+  "training_metrics": {},
+  "validation_metrics": {
+    "test_accuracy": 0.9833333333333333,
+    "test_macro_f1": 0.5305036785512168,
+    "best_val_loss": 0.30302894830703736,
+    "train_samples": 1400,
+    "test_samples": 300
+  },
+  "seq_length": 250
+}

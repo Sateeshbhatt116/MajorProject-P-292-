@@ -1,0 +1,35 @@
+{
+  "split": "Held-Out Test Set (single_record_chronological_block)",
+  "total_beats": 400,
+  "class_distribution": {
+    "N": 393,
+    "S": 6,
+    "V": 1
+  },
+  "models": [
+    {
+      "Model": "ecg_random_forest",
+      "Type": "random_forest",
+      "Accuracy %": "99.75%",
+      "Macro Sens %": "40.00%",
+      "Macro Spec %": "97.14%",
+      "Macro F1": "0.3997",
+      "Weighted F1": "0.9963",
+      "Macro ROC-AUC": "nan",
+      "Latency (ms/beat)": "1.37 ms",
+      "Inference Time (s)": 0.548
+    },
+    {
+      "Model": "ecg_cnn_1d",
+      "Type": "cnn_1d",
+      "Accuracy %": "99.75%",
+      "Macro Sens %": "40.00%",
+      "Macro Spec %": "97.14%",
+      "Macro F1": "0.3997",
+      "Weighted F1": "0.9963",
+      "Macro ROC-AUC": "nan",
+      "Latency (ms/beat)": "0.12 ms",
+      "Inference Time (s)": 0.048
+    }
+  ]
+}
